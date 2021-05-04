@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<shop>
+  <good code = "1" name= "boots" price= "2000"/>
+  <good code = "2" name= "hats" price = "1500"/>
+  <good code = "3" name= "pens" price = "30"/>
+  <good code = "4" name= "vases" price = "1500"/>
+
+  <customer code = "1" name= "MVideo" adress = "Moskow" phone= "0000000000"/>
+  <customer code = "2" name= "MMM" adress = "Moskow" phone= "1111111111"/>
+  <customer code = "3" name= "Mersedes" adress = "Berlin" phone= "2222222222"/>
+  <customer code = "4" name= "Manga" adress = "Tokio" phone= "3333333333"/>
+
+  <order code="1" customer= "1" good= "1" cost= "5000">
+  </order>
+
+  <order code="2" customer="2" good="2" cost="8090">
+  </order>
+
+  <order code="3" customer="3" good="3" cost="250">
+  </order>
+
+  <order code="4" customer="4" good="4" cost="15000">
+  </order>
+
+</shop>
